@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 export async function getGeminiResponse(userInput) {
-    const GEMINI_API_KEY = "AIzaSyBIhcR9zftIUImxYcgVGx6ZJWLlZABnfF8";
+    const GEMINI_API_KEY = "";
     try {
         const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
         const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });

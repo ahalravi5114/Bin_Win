@@ -4,7 +4,7 @@ import { Home, User, Trophy, Gamepad, ArrowLeft } from "lucide-react-native";
 import { StyleSheet } from "react-native";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const GEMINI_API_KEY = "AIzaSyBIhcR9zftIUImxYcgVGx6ZJWLlZABnfF8"; // Replace with actual API key
+const GEMINI_API_KEY = ""; // Replace with actual API key
 
 export default function QuizComponent({ navigation }) {
   const [questions, setQuestions] = useState([]);
